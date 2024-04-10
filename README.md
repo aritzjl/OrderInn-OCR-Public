@@ -2,11 +2,11 @@
 ![image](https://github.com/aritzjl/OrderInn-OCR-Public/assets/129123101/1d12eebb-f3f9-43d5-ba6c-20cefa97ce65)
 
 
-Este proyecto Django permite a los usuarios de [OrderInn](https://home.orderinn.com/) subir fotos de menús de restaurantes, extrae el texto utilizando la API de Google Vision y, luego, procesa este texto con la API de ChatGPT y un algoritmo específico para convertirlo en un archivo Excel con un formato específico.
+Este proyecto Django permite a los usuarios de [OrderInn](https://home.orderinn.com/) subir fotos/pdfs de menús de restaurantes, extrae el texto utilizando la API de Google Vision y, luego, procesa este texto con la API de ChatGPT y un algoritmo específico para convertirlo en un archivo Excel con un formato específico.
 
 ## **Características**
 
-- **Extracción de Texto:** Utiliza EasyOCR y la API de Google Vision para extraer texto de imágenes.
+- **Extracción de Texto:** Utiliza PyMuPDF y la API de Google Vision para extraer texto de imágenes y pdfs.
 - **Procesamiento de Texto:** Implementa un algoritmo personalizado para procesar el texto extraído y convertirlo en formato estructurado.
 - **Generación de PDF:** Convierte el texto estructurado en un PDF formateado específicamente para OrderInn.
 - **Interfaz de Usuario Segura:** Requiere autenticación de usuario para subir y procesar imágenes.
@@ -54,7 +54,8 @@ Para utilizar la aplicación:
 
 
 3. Sigue las instrucciones en pantalla para subir una foto de un menú.
-![image](https://github.com/aritzjl/OrderInn-OCR-Public/assets/129123101/c93fb782-ba20-4903-b0b2-77b8a4e67c62)
+![image](https://github.com/aritzjl/OrderInn-OCR-Public/assets/129123101/1cc4e19c-669b-448a-b26b-5b9c872e32d7)
+
 
 
 4. Descarga el archivo Excel generado una vez que el proceso haya finalizado.
