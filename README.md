@@ -1,5 +1,5 @@
 # **[OrderInn](https://home.orderinn.com/) Menu OCR to Excel Converter**
-![image](https://github.com/aritzjl/OrderInn-OCR-Public/assets/129123101/1d12eebb-f3f9-43d5-ba6c-20cefa97ce65)
+![image](https://github.com/aritzjl/OrderInn-OCR-Public/assets/129123101/1cc4e19c-669b-448a-b26b-5b9c872e32d7)
 
 
 Este proyecto Django permite a los usuarios de [OrderInn](https://home.orderinn.com/) subir fotos/pdfs de menús de restaurantes, extrae el texto utilizando la API de Google Vision y, luego, procesa este texto con la API de ChatGPT y un algoritmo específico para convertirlo en un archivo Excel con un formato específico.
