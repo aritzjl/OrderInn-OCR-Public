@@ -8,7 +8,7 @@ Este proyecto Django permite a los usuarios de [OrderInn](https://home.orderinn.
 
 - **Extracción de Texto:** Utiliza PyMuPDF y la API de Google Vision para extraer texto de imágenes y pdfs.
 - **Procesamiento de Texto:** Implementa un algoritmo personalizado para procesar el texto extraído y convertirlo en formato estructurado.
-- **Generación de PDF:** Convierte el texto estructurado en un PDF formateado específicamente para OrderInn.
+- **Generación de Excel:** Convierte el texto estructurado en un Excel formateado específicamente para OrderInn.
 - **Interfaz de Usuario Segura:** Requiere autenticación de usuario para subir y procesar imágenes.
 
 ## **Requisitos Previos**
